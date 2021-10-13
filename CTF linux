@@ -3,7 +3,8 @@ ls
 cat flag
 
 2.
-
+ls -a
+cat./.hidden
 
 3.
 cat hex.txt
