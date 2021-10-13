@@ -1,0 +1,51 @@
+1.
+ls
+cat flag
+
+2.
+
+
+3.
+cat hex.txt
+https://coding.tools/tw/hex-to-ascii
+
+4.
+cat base64.txt
+https://www.convertstring.com/zh_TW/EncodeDecode/Base64Decode
+
+5.
+find / -name secret
+cat /opt/secret
+
+6.
+ps -aux -w
+nc 127.0.0.1 2111
+
+7.netstat -ano
+curl 127.0.0.1
+
+8.cd /tmp
+ls
+mkdir 4070E061
+cd 4070E061
+wget http://120.114.62.217/ForYou.tar.gz
+ls
+tar -xvf ForYou.tar.gz
+cat ForYou
+
+9.wget http://120.114.62.217/TobeExe(下載檔案)
+ls
+file TobeExe(查看檔案類型)
+ls -al TobeExe(秀出檔案的權限)
+chmod +x TobeExe(加入執行的權限)
+./TobeExe(執行檔案)
+
+10.
+wget http://120.114.62.217/reverse
+ls
+file reverse
+ls -al reverse
+chmod +x reverse
+ls -al reverse
+./reverse
+strings reverse
